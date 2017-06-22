@@ -9,4 +9,5 @@ Gem::Specification.new do |s|
   s.files       = ["lib/health.rb", "lib/health_services_pb.rb", "lib/health_pb.rb"]
   s.homepage    =
     'https://github.com/andela/micro-ruby-health-check'
+  s.add_runtime_dependency 'grpc'
 end
